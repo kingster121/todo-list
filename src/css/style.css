@@ -1,0 +1,30 @@
+:root{
+    padding:0;
+    margin:0;
+    border:0;
+    --dark-green:#264653;
+    --light-green:#2A9D8F;
+    --yellow:#E9C46A;
+    --light-orange:#F4A261;
+    --dark-orange:#E76F51;
+}
+
+.sidebar{
+    height: 100%; /* Full-height: remove this if you want "auto" height */
+    width: 160px; /* Set the width of the sidebar */
+    position: fixed; /* Fixed Sidebar (stay in place on scroll) */
+    z-index: 1; /* Stay on top */
+    top: 0; /* Stay at the top */
+    left: 0;
+    background-color: var(--dark-green); /* Black */
+    overflow-x: hidden; /* Disable horizontal scroll */
+    padding-top: 20px;
+}
+
+.sidebar button{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--light-green);
+    text-align: left;
+}
